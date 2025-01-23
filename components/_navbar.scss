@@ -1,0 +1,44 @@
+.navbar{
+    background-image: linear-gradient(to right, #00378a , #a10202);
+    padding: 5px;
+    
+    .navbar-brand{
+        font-size: 26px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        font-style: italic;
+        color:white;
+    }
+    .navbar-nav{
+        gap: 30px;
+        .nav{
+            position: relative;    
+    
+        }
+        .nav-link{
+            &:after{
+                content:"";
+                width: 0%;
+                height: 5px;
+                background: white;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                border-radius: 12px;
+                
+                transition: .4s;
+                
+            }
+            color:white;
+            &:hover{
+                
+                &:after{
+                  width: 100%;
+                }
+            }
+        }
+    }
+    .button{
+        @include button();
+    }
+}
