@@ -99,10 +99,26 @@
         .side-news{
             padding-top: 60px;
             flex-direction: column;
-            gap: 15px;
+            gap: 10px;
             .news{
-                gap: 20px;
-                border: 1px solid black;
+                gap: 12px;
+                border: 1px solid transparent;
+                border-right: 1px solid gray;
+                border-radius: 0px 20px 20px 0px;
+                padding-right: 5px;
+                transition: .4s;
+
+                img{
+                    scale: .9;
+                    transition: .4s;
+                }
+
+                &:hover{
+                    border: 1px solid gray;
+                    img{
+                        scale: 1;
+                    }
+                }
             }
         }
 

@@ -1,0 +1,20 @@
+#bangladesh{
+    margin: 50px 0px;
+    .head{
+        justify-content: space-between;
+    }
+    .content{
+
+        .cards{
+            margin: 10px 0px;
+            border: 2px solid black;
+            .details{
+
+                padding: 10px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
