@@ -63,7 +63,14 @@ li {
 }
 
 #slideshow {
-  padding: 50px 0;
+  padding: 30px 0px;
+}
+#slideshow .first_bar {
+  justify-content: space-between;
+  align-items: center;
+}
+#slideshow .first_bar img {
+  width: 250px;
 }
 #slideshow .slideshow {
   /* Hide the images by default */
@@ -211,4 +218,8 @@ li {
 }
 #bangladesh .content .cards img {
   width: 100%;
+}
+
+#video .head {
+  padding: 20px 0px;
 }/*# sourceMappingURL=style.css.map */

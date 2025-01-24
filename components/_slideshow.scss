@@ -1,6 +1,13 @@
 #slideshow {
-    padding: 50px 0;
-
+    padding: 30px 0px;
+    .first_bar{
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 250px;
+            
+        }
+    }
     .slideshow {
 
         .slideshow-container {
