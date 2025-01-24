@@ -175,10 +175,27 @@ li {
 #breaking .heading {
   margin: 20px 0px;
 }
+#breaking .content .cards {
+  transition: 1s;
+}
+#breaking .content .cards:hover img {
+  display: block;
+}
+#breaking .content .cards:hover .news_details {
+  display: none;
+}
 #breaking .content .cards img {
   width: 100%;
   display: none;
 }
+#breaking .content .cards .news_details {
+  transition: 1s;
+  padding: 20px 10px;
+}
+#breaking .content .cards .news_details h4 {
+  padding-bottom: 20px;
+}
+
 #bangladesh {
   margin: 50px 0px;
 }
