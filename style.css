@@ -220,6 +220,21 @@ li {
   width: 100%;
 }
 
+#video {
+  padding: 60px;
+}
 #video .head {
   padding: 20px 0px;
+}
+#video .video {
+  margin: 20px 0px;
+}
+
+#footer {
+  padding: 60px 0px;
+  background-image: linear-gradient(to right, #00378a, #a10202);
+  color: white;
+}
+#footer .content {
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
